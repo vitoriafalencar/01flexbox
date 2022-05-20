@@ -1,0 +1,81 @@
+
+    
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   .container {
+       display: flex;
+   width: 400px;
+   height: 300px;
+   border: solid;
+   margin: 6px;
+}
+#foto{
+    width: 150px;
+    height: 150px;
+}
+#div1{
+    justify-content: center;
+    align-items: center;
+}
+.quadro{
+    width: 50px;
+    height: 50px;
+    border: solid;
+    background-color: darkgoldenrod;
+}
+#div2{
+    justify-content: center;
+    align-items: center;
+
+}
+#div3{
+ flex-direction: row;
+}
+#div4{
+flex-direction: column;
+}
+\*fazendo com os outos */
+
+
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    display: flex;
+width: 300px;
+height: 300px;
+border: solid;
+margin: 6px;
+}
+
+.quad{
+    width: 60px;
+    height: 60px;
+    border: solid;
+    background-color: rgb(101, 0, 243);
+}
+
+#div5{
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: flex-start;
+    
+
+}
+#div6{
+ flex-direction: column-reverse;
+ justify-content: end;
+ align-items: flex-end;
+}
+#div7{
+flex-direction: column;
+justify-content: space-around;
+align-items: stretch;
+}
